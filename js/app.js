@@ -32,4 +32,4 @@ if (birds === 'yes') {
   alert('Freedom!');
 }
 
-alert(username + ', thank your for time. Enjoy!');
+alert(username + ', thank you for your time. Enjoy!');
