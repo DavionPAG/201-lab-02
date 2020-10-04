@@ -9,8 +9,19 @@ p {
   border: 10px gold; margin: 30px; padding: 10px;
 }
 
-div {
-  text-align: center; 
+ul ol {
+  list-style: none;
 }
 
-li {display: inline;padding: 10px;}
+ li::before {
+  content: "\2022";
+  color: gold;
+  display: inline-block;
+  width: 1em;
+  padding: 15px;
+  pa
+}
+
+h3 {padding: 10px;}
+
+div {margin-left: auto; margin-right: auto;}

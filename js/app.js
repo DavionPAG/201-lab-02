@@ -32,4 +32,12 @@ if (birds === 'yes') {
   alert('Freedom!');
 }
 
+var numba = prompt('My favorite number is between 1 and 10. Can you guess it?')
+console.log('that\'s the one!');
+if (numba === '7') {
+  alert('that\'s the one!');
+}
+
+///while (numba != 7 ) {  }
+
 alert(username + ', thank you for your time. Enjoy!');
