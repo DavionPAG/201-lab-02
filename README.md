@@ -1,5 +1,8 @@
-# 201-lab-02
-- Ask 5 Questions. If Questions answered correctlty, let user know.
+# Lab 2
+- Added Bio
+- Ask 5 yes or no Questions. If Questions answered correctlty, let user know.
+
 
 # Lab 3
-- Added to more questions. Let user know total number of correct responses.
+- Created Top 10 list | Converted work/Education summary to a list.
+- Added 2 more prompt questions. Lets user know total number of correct responses.
