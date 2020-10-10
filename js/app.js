@@ -1,3 +1,4 @@
+
 'use strict';
 
 var numCor = 0;
@@ -7,43 +8,63 @@ alert('Welcome ' + username + ', please answer the questions that follow before 
 
 var live = prompt('Do I live in seattle?').toLowerCase();
 //console.log(live + ' Correctamundo!');
+
+function qOne() {
 if (live === 'yes' || live === 'y') {
   alert('Correctamundo!');
   numCor++;
 }
+}
+qOne();
 
 var futbol = prompt('Do I play futbol?').toLowerCase();
 //console.log(futbol + ' I am indeed a practitioner of the worlds\' game.');
+
+function qTwo() {
 if (futbol === 'yes' || futbol === 'y') {
   alert('I am indeed a practitioner of the worlds\' game.');
   numCor++;
 }
+}
+qTwo();
 
 var hike = prompt('Do I like to hike?').toLowerCase();
 //console.log(hike + ' Parts unknown for sure.');
+
+function qThree() {
 if (hike === 'yes' || hike === 'y') {
   alert('Parts unknown for sure.');
   numCor++;
+} 
 }
+qThree();
 
 var tall = prompt('Am I taller than you?').toLowerCase();
 //console.log('Indeed I am :\)');
+
+function qFour() {
 if (tall === 'yes' || tall === 'y') {
   alert('Indeed I am :\)');
   numCor++;
 }
+}
+qFour();
 
 var birds = prompt('Do I like birds?').toLowerCase();
 //console.log(birds + ' Freedom!');
+
+function qFive() {
 if (birds === 'yes' || birds === 'y') {
   alert('Freedom!');
   numCor++;
 }
-
+}
+qFive();
 //***This is lab 03***
 
 var count = 4;
 
+function qSix() {
 while (count > 0) {
   var gNumber = prompt('I\'m thinking of a number between 1 and 10. Can you guess it?');
 
@@ -63,10 +84,13 @@ while (count > 0) {
   }
   count--;
 }
+}
+qSix();
 
 var count2 = 6;
 var sports = ['soccer', 'tennis'];
 
+function qSeven() {
 outerloop: while (count2 > 0) {
   var guessGame = prompt('Can you guess one of the sports I play?');
   for (var i = 0; i < sports.length; i++) {
@@ -87,5 +111,7 @@ outerloop: while (count2 > 0) {
   }
   count2--;
 }
+}
+qSeven();
 
 alert(`${username}, you answered ${numCor} of the questions correctly. Thank you for your time. Enjoy!`);
