@@ -1,4 +1,3 @@
-
 'use strict';
 
 var numCor = 0;
@@ -7,7 +6,6 @@ var username = prompt('Greetings! What\'s your name?');
 alert('Welcome ' + username + ', please answer the questions that follow before continuing.');
 
 var live = prompt('Do I live in seattle?').toLowerCase();
-//console.log(live + ' Correctamundo!');
 
 function qOne() {
   if (live === 'yes' || live === 'y') {
@@ -18,7 +16,7 @@ function qOne() {
 qOne();
 
 var futbol = prompt('Do I play futbol?').toLowerCase();
-//console.log(futbol + ' I am indeed a practitioner of the worlds\' game.');
+
 
 function qTwo() {
   if (futbol === 'yes' || futbol === 'y') {
@@ -29,7 +27,6 @@ function qTwo() {
 qTwo();
 
 var hike = prompt('Do I like to hike?').toLowerCase();
-//console.log(hike + ' Parts unknown for sure.');
 
 function qThree() {
   if (hike === 'yes' || hike === 'y') {
@@ -40,7 +37,6 @@ function qThree() {
 qThree();
 
 var tall = prompt('Am I taller than you?').toLowerCase();
-//console.log('Indeed I am :\)');
 
 function qFour() {
   if (tall === 'yes' || tall === 'y') {
@@ -51,7 +47,6 @@ function qFour() {
 qFour();
 
 var birds = prompt('Do I like birds?').toLowerCase();
-//console.log(birds + ' Freedom!');
 
 function qFive() {
   if (birds === 'yes' || birds === 'y') {
@@ -60,6 +55,8 @@ function qFive() {
   }
 }
 qFive();
+
+
 //***This is lab 03***
 
 var count = 4;

@@ -1,3 +1,7 @@
+* {
+  border-radius: 5px;
+}
+
 body {
   background-color: rgb(14, 13, 13); color: rgb(241, 241, 245); }
 
@@ -12,6 +16,11 @@ header {
 
 h3 {
   padding: 10px;
+  margin-left: 40px;
+}
+
+*:hover {
+  background-color: black;
 }
 
 p {
